@@ -23,6 +23,6 @@ spec:
       - CreateNamespace=true  
   ignoreDifferences:
     - jsonPointers:
-      - /data/my-password
+      - /data/my*
       - /metadata/annotations/creation
       - /data/my-username
