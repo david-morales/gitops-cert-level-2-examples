@@ -24,7 +24,6 @@ spec:
   ignoreDifferences:
     - group: apps
       jsonPointers:
+        - /data/my-password
         - /metadata/annotations/creation
         - /data/my-username
-        - /data/my-password
-   
